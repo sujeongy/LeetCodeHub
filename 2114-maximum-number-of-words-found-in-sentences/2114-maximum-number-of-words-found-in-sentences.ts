@@ -1,7 +1,10 @@
 function mostWordsFound(sentences: string[]): number {
-    let counts = [];
+    let maxCount = 0;
     sentences.forEach((sentence) => {
-        counts.push(sentence.split(' ').length);
+        const counts = sentence.split(' ').length;
+        if(counts > maxCount) {
+            maxCount = counts;
+        }
     })
-    return counts.sort((a,b) => b-a)[0]; 
+    return maxCount; 
 };
