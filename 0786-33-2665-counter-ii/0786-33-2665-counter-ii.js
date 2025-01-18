@@ -15,6 +15,14 @@ const createCounter = function(init) {
         return init;
     }
     return { increment, decrement, reset }
+
+    // # BEST
+    // let sum = init;
+    // return {
+    //     increment() {return ++sum;},
+    //     decrement() {return --sum;},
+    //     reset() {return sum = init;},
+    // };
 };
 
 /**
