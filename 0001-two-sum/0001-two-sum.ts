@@ -1,9 +1,9 @@
 function twoSum(nums: number[], target: number): number[] {
-    for(let i=0;i<nums.length;i++) {
-        for(let j=i+1;j<nums.length;j++) {
-            if(nums[i]+nums[j] === target) {
-                return [i, j];
-            }
+    const numObject = {};
+    for(const [index, ele] of nums.entries()) {
+        if(numObject[ele] !== undefined) {
+            return [numObject[ele], index];
         }
+        numObject[target - ele] = index;
     }
 };
