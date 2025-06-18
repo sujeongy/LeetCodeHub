@@ -23,4 +23,4 @@ function maxProfit(prices: number[]): number {
 ```
 
 ## 참고
-- [Explain solution in English]([prices](https://www.youtube.com/watch?v=9ZMMNyHy3z4))
+- [Explain solution in English](https://www.youtube.com/watch?v=9ZMMNyHy3z4)
