@@ -3,7 +3,7 @@ function maxProfit(prices: number[]): number {
     let maxProfit = 0;
     const len = prices.length;
     for(let i=1;i<len;i++) {
-        let diff = prices[i] - minPrice;
+        const diff = prices[i] - minPrice;
         maxProfit = Math.max(maxProfit, diff);
         minPrice = Math.min(prices[i], minPrice);
     }
