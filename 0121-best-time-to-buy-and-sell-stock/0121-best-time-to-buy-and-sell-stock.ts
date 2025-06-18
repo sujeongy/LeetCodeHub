@@ -1,14 +1,11 @@
 function maxProfit(prices: number[]): number {
-    let minPrice = Infinity;
+    let minPrice = prices[0];
     let maxProfit = 0;
-
-    for (const price of prices) {
-        if (price < minPrice) {
-            minPrice = price;
-        } else {
-            maxProfit = Math.max(maxProfit, price - minPrice);
-        }
+    const len = prices.length;
+    for(let i=1;i<len;i++) {
+        let diff = prices[i] - minPrice;
+        maxProfit = Math.max(maxProfit, diff);
+        minPrice = Math.min(prices[i], minPrice);
     }
-
     return maxProfit;
 };
