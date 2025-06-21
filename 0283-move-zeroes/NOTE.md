@@ -5,7 +5,7 @@
 - 사실 for문을 두번 쓰고 싶지 않았다. 일단 빨리 푸는게 목적이라 진행은 했지만 아쉽다.
 - `temp` 배열을 만들 생각만 했지, 변수로 따로 잡을 생각을 놓쳤다.
 
-## 졸은 답변
+## 좋은 답변
 ```
 function moveZeroes(nums: number[]): void {
     let start = 0;
@@ -23,3 +23,4 @@ function moveZeroes(nums: number[]): void {
 
 ## 참고
 - [283. Move Zeroes JAVASCRIPT](https://www.youtube.com/watch?v=CKqh1MD2n-E)
+- [JavaScript에서 LeetCode 283 해결(0 이동)](https://www.youtube.com/watch?v=vP8-eaIo3is)
