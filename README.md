@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/sujeongy/LeetCodeHub/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/sujeongy/LeetCodeHub/tree/master/0013-roman-to-integer) |
+| [0242-valid-anagram](https://github.com/sujeongy/LeetCodeHub/tree/master/0242-valid-anagram) |
 ## Math
 |  |
 | ------- |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0013-roman-to-integer](https://github.com/sujeongy/LeetCodeHub/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/sujeongy/LeetCodeHub/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/sujeongy/LeetCodeHub/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -39,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/sujeongy/LeetCodeHub/tree/master/0088-merge-sorted-array) |
+| [0242-valid-anagram](https://github.com/sujeongy/LeetCodeHub/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
