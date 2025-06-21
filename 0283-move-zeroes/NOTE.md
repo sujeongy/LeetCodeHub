@@ -20,3 +20,6 @@ function moveZeroes(nums: number[]): void {
     }
 };
 ```
+
+## 참고
+- [283. Move Zeroes JAVASCRIPT](https://www.youtube.com/watch?v=CKqh1MD2n-E)
