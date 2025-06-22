@@ -33,7 +33,7 @@ return set.size !== nums.length;
 // anagram check
 const map = new Map();
 for (let c of s) {
-  map.set(c, (map.get(c) || 0) + 1);
+  map.set(c, (map.get(c) ?? 0) + 1);
 }
 ```
 👉 갯수를 세야 한다 → Map
