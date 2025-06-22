@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/sujeongy/LeetCodeHub/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/sujeongy/LeetCodeHub/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sujeongy/LeetCodeHub/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0217-contains-duplicate](https://github.com/sujeongy/LeetCodeHub/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/sujeongy/LeetCodeHub/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/sujeongy/LeetCodeHub/tree/master/0349-intersection-of-two-arrays) |
 ## Hash Table
@@ -16,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/sujeongy/LeetCodeHub/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/sujeongy/LeetCodeHub/tree/master/0013-roman-to-integer) |
+| [0217-contains-duplicate](https://github.com/sujeongy/LeetCodeHub/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sujeongy/LeetCodeHub/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/sujeongy/LeetCodeHub/tree/master/0349-intersection-of-two-arrays) |
 ## Math
@@ -44,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/sujeongy/LeetCodeHub/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/sujeongy/LeetCodeHub/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sujeongy/LeetCodeHub/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/sujeongy/LeetCodeHub/tree/master/0349-intersection-of-two-arrays) |
 ## Linked List
