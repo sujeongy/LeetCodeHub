@@ -3,7 +3,7 @@ Object으로도 구현가능하고, Map 객체로도 구현 가능하다.
 
 ```javascript
 // Object
-Function twoSum(nums: number[], target: number): number[] {
+function twoSum(nums: number[], target: number): number[] {
     const numObject = {};
     for(const [index, ele] of nums.entries()) {
         if(numObject[ele] !== undefined) {
@@ -33,3 +33,4 @@ function twoSum(nums: number[], target: number): number[] {
 - [Array.prototype.entries()
 Baseline Widely available
 ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
+- [mdn - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
