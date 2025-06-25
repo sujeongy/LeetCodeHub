@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/sujeongy/LeetCodeHub/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/sujeongy/LeetCodeHub/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/sujeongy/LeetCodeHub/tree/master/0349-intersection-of-two-arrays) |
+| [0643-maximum-average-subarray-i](https://github.com/sujeongy/LeetCodeHub/tree/master/0643-maximum-average-subarray-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -77,4 +78,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/sujeongy/LeetCodeHub/tree/master/0053-maximum-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/sujeongy/LeetCodeHub/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
