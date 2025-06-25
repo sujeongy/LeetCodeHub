@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/sujeongy/LeetCodeHub/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/sujeongy/LeetCodeHub/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/sujeongy/LeetCodeHub/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/sujeongy/LeetCodeHub/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/sujeongy/LeetCodeHub/tree/master/0344-reverse-string) |
@@ -82,4 +83,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/sujeongy/LeetCodeHub/tree/master/0643-maximum-average-subarray-i) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/sujeongy/LeetCodeHub/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
