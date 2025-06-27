@@ -3,9 +3,7 @@ class MyQueue {
     inputStack = [];
 
     push(x: number): void {
-        console.log(1, x);
         this.inputStack.push(x);
-        console.log(111, this.inputStack);
     }
 
     pop(): number {
