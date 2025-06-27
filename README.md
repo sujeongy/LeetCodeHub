@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/sujeongy/LeetCodeHub/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/sujeongy/LeetCodeHub/tree/master/0387-first-unique-character-in-a-string) |
 ## Counting
 |  |
@@ -87,4 +88,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sujeongy/LeetCodeHub/tree/master/0020-valid-parentheses) |
+| [0232-implement-queue-using-stacks](https://github.com/sujeongy/LeetCodeHub/tree/master/0232-implement-queue-using-stacks) |
+## Design
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/sujeongy/LeetCodeHub/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
