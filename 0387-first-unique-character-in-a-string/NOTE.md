@@ -1,10 +1,10 @@
 # NOTE
 
-## 메모
+## 고민한 것
 - MAP, SET사용에 집중하다보니 더 쉽고 빠르게 풀 수 있는데 놓쳤다.
 - 아래는 가볍게 풀 수 있는 정답중 하나다.
 
-```
+```js
 // GOOD
 function firstUniqChar(s: string): number {
     for (let i = 0; i < s.length; i++) {                // 1
