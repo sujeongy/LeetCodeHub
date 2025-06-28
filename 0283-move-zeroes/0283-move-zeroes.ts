@@ -2,14 +2,14 @@
  Do not return anything, modify nums in-place instead.
  */
 function moveZeroes(nums: number[]): void {
-    let idxs = [];
-    nums.forEach((num, idx) => {
-        if(num === 0) { 
-            idxs.push(idx - idxs.length);
+    let start = 0;
+    let temp = 0;
+    for(let i=0;i<nums.length;i++) {
+        temp = nums[i];
+        nums[i] = 0;
+        if(temp !== 0) {
+            nums[start] = temp;
+            start++;
         }
-    });
-    idxs.forEach((ele) => {
-        nums.splice(ele, 1);
-        nums.push(0);
-    })
+    }
 };
