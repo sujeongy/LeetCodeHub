@@ -1,24 +1,19 @@
 function isValid(s: string): boolean {
-    if(s.length % 2 === 1) return false;
-    let stack = [];
-    const openMap = {
+    const obj = {
         ")": "(",
         "}": "{",
-        "]": "[", 
-    }
-    const closed = [")", "}", "]"];
-    for(let i=0; i<s.length; i++){
-        const curr = s[i];
-        if(closed.includes(curr)) {
-            if(stack.pop() !== openMap[curr]) { 
-                return false;
-            }
+        "]": "[",
+    };
+    let stack = [];
+    let result = true;
+    if(s.length % 2 === 1) return false;
+    for(let i=0;i<s.length;i++) {
+        if(s[i] === ")" || s[i] === "}" || s[i] === "]") {
+            if(stack.pop() !==  obj[s[i]]) return false;
         } else {
-            stack.push(curr);
-        }
-        if(i === s.length - 1 && stack.length) {
-            return false;
+            stack.push(s[i]);
         }
     }
+    if(stack.length) return false;
     return true;
 }
