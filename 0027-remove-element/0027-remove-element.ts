@@ -1,12 +1,10 @@
-function removeElement(nums, val) {
-  let pointer = 0; // 남길 위치
-
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] !== val) {
-      nums[pointer] = nums[i];
-      pointer++;
+function removeElement(nums: number[], val: number): number {
+    let idx = 0;
+    for(let i=0;i<nums.length;i++) {
+        if(nums[i] !== val) {
+            nums[idx] = nums[i];
+            idx++;
+        }
     }
-  }
-
-  return pointer;
-}
+    return idx;
+};
