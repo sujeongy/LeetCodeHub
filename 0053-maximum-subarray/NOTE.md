@@ -1,5 +1,5 @@
 # NOTE
-주기적으로 다시 풀 것
+Sliding Window
 
 ## 문제점
 - [SubArray](https://www.geeksforgeeks.org/dsa/array-subarray-subsequence-and-subset/)를 뜻을 몰랐다.
@@ -30,6 +30,18 @@ function maxSubArray(nums: number[]): number {
     }
     return maxSum;
 };
+```
+```js
+// GOOD
+function maxSubArray(nums: number[]): number {
+    let maxSum = nums[0];
+    let currentSum = nums[0];
+    for(let i=1;i<nums.length;i++) {
+        currentSum = Math.max(nums[i], currentSum + nums[i]);
+        maxSum = Math.max(maxSum, currentSum);
+    }
+    return maxSum;
+}
 ```
 
 ## 참고
