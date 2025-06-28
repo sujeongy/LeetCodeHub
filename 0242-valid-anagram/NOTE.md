@@ -7,9 +7,9 @@
 - 👉 indexOf/splice는 작은 케이스 연습용만!
 
 ## 참고 코드
-```
-return
-> 반복문 종료, 함수 자체 종료
+```js
+// return
+// > 반복문 종료, 함수 자체 종료
 
 const forReturn = () => {
   let sum = 0;
@@ -25,7 +25,7 @@ const forReturn = () => {
 };
 
 forReturn();
-sum이 100보다 커질 때 반복문뿐만 아니라 forReturn( ) 함수 자체를 종료시킨다.
-그래서 console에는 아무 값도 출력되지 않는다.
+// sum이 100보다 커질 때 반복문뿐만 아니라 forReturn( ) 함수 자체를 종료시킨다.
+// 그래서 console에는 아무 값도 출력되지 않는다.
 // 출처: https://jindev-t.tistory.com/105
 ```
