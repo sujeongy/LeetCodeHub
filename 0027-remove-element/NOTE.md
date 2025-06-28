@@ -12,6 +12,19 @@ function removeElement(nums: number[], val: number): number {
     return filtered.length;
 };
 ```
+### 개선된 답안
+```js
+function removeElement(nums: number[], val: number): number {
+    let idx = 0;
+    for(let i=0;i<nums.length;i++) {
+        if(nums[i] !== val) {
+            nums[idx] = nums[i];
+            idx++;
+        }
+    }
+    return idx;
+};
+```
 
 ### ✅ in-place의 정확한 뜻
 #### in-place란
