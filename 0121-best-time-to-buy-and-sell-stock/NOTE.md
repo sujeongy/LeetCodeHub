@@ -5,7 +5,7 @@
 - 불필요하게 `for문`을 두번 사용할 필요가 없다.
 
 ## 참고 코드
-```
+```js
 function maxProfit(prices: number[]): number {
     let minPrice = Infinity;
     let maxProfit = 0;
