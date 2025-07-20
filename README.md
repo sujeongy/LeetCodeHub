@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0009-palindrome-number](https://github.com/sujeongy/LeetCodeHub/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/sujeongy/LeetCodeHub/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/sujeongy/LeetCodeHub/tree/master/0070-climbing-stairs) |
 ## String
 |  |
 | ------- |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/sujeongy/LeetCodeHub/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/sujeongy/LeetCodeHub/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sujeongy/LeetCodeHub/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Two Pointers
 |  |
@@ -95,4 +97,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0155-min-stack](https://github.com/sujeongy/LeetCodeHub/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/sujeongy/LeetCodeHub/tree/master/0232-implement-queue-using-stacks) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/sujeongy/LeetCodeHub/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
